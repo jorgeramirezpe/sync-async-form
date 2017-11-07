@@ -8,27 +8,28 @@
       integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
       crossorigin="anonymous">
     </script>
-    <script type="text/javascript"src="main.js">
+    <script type="text/javascript" src="main.js"> </script>
+    <link rel="stylesheet" href="/main.css">
 
-    </script>
+
   </head>
   <body>
-    <form method="GET">
+    <form method="POST">
       <p>
-        <label for="first_nem">Nombre:</label>
-        <input type="text" name="first_name" id="first_name" required/>
+        <label for="first_name">Nombre:</label>
+        <input type="text" name="first_name" id="first_name" required class="input-text"/>
       </p>
 
       <p>
         <label for="full_name">Apellidos</label>
-        <input type="text" name="text_name" id="full_name"/>
+        <input type="text" name="text_name" id="full_name" class="input-text"/>
       </p>
 
       <p>
         <label for="">Sexo:</label>
-        <input type="radio" name="gender" value="f" id="femenino"/>
+        <input type="radio" class="gender" name="gender" value="f" id="femenino"/>
         <label for="femenino">femenino</label>
-        <input type="radio" name="gender" value="m" id="masculino"/>
+        <input type="radio" class="gender" name="gender" value="m" id="masculino"/>
         <label for="masculino">masculino</label>
       </p>
 
